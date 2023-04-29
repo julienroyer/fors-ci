@@ -1,0 +1,2 @@
+FROM eclipse-temurin:11.0.19_7-jdk-alpine
+RUN apk add --no-cache npm git bash && rm -rf /var/cache/apk/*
